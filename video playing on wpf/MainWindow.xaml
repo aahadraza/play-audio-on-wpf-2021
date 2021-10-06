@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfTutorialSamples.Audio_and_Video.MediaPlayerVideoControlSample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MediaPlayerVideoControlSample" Height="300" Width="300">
+    <Grid Margin="10">
+        <Grid.Background>
+            <ImageBrush TileMode="FlipY" ImageSource="/god_of_war_wallpaper.jpg"/>
+        </Grid.Background>
+        <MediaElement Source="C:\Users\AHAD RAZA\Downloads\ATIF.mp3"/>
+    </Grid>
+</Window>

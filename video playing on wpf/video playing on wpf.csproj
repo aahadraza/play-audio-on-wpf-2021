@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>video_playing_on_wpf</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="god_of_war_wallpaper.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="god_of_war_wallpaper.jpg" />
+  </ItemGroup>
+
+</Project>
